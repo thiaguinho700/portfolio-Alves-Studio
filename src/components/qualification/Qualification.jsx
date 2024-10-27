@@ -112,7 +112,7 @@ function Qualification() {
                     : "English Course"}
                 </h3>
                 <span className="qualification__subtitle">
-                  Instituto Robert Bosch
+                  Instituto Robert Bosch - Bosch
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - 2022
