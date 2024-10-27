@@ -9,15 +9,7 @@ function Footer() {
         <h1 className="footer__title">Thiago Alves</h1>
 
         <ul className="footer__list">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/thiago-alves17/"
-              className="footer__link"
-              target="_blank"
-            >
-              Linkedin
-            </a>
-          </li>
+        
           <li>
             <a
               href="https://github.com/thiagoHenrique847"

@@ -38,29 +38,7 @@ function Contact() {
               <span className="contact__card-data">
                 thiagocontato1232@gmail.com
               </span>
-            </div>
-            <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
-
-              <h3 className="contact__card-title">Linkedin</h3>
-              <span className="contact__card-data">
-                <a
-                  href="https://www.linkedin.com/in/thiago-alves17/"
-                  target="_blank"
-                >
-                  www.linkedin.com/in/thiago-alves17
-                </a>
-              </span>
-
-              <a
-                href="https://www.linkedin.com/in/thiago-alves17/"
-                className="contact__button"
-                target="_blank"
-              >
-                {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
+            </div>          
             <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
 
