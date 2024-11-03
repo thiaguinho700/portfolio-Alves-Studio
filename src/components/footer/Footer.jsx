@@ -10,7 +10,7 @@ function Footer() {
 
         <ul className="footer__list">
         
-          <li>
+          {/* <li>
             <a
               href="https://github.com/thiagoHenrique847"
               className="footer__link"
@@ -18,7 +18,7 @@ function Footer() {
             >
               GitHub
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="https://www.instagram.com/thiago.freelas/"

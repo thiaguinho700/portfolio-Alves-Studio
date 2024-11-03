@@ -10,12 +10,13 @@
 // import Comidas from "../../assets/ProjectsImage/Comidas.png";
 // import Todo from "../../assets/ProjectsImage/Todo.png";
 import ImgMorais from "../../assets/ProjectsImage/ProjetosMorais.png";
+import ImgGepea from "../../assets/ProjectsImage/ImgGepea.png";
 
 const language = localStorage.getItem("language");
 
 export const projectsData = [
   {
-    id: 2,
+    id: 1,
 
     image: ImgMorais,
     title:
@@ -28,6 +29,17 @@ export const projectsData = [
       language === "Portuguese"
         ? "Morais Transportes é um projeto freelancer para a empresa Morais Transportes, envolvendo o desenvolvimento de um site de propaganda."
         : "Morais Transportes is a freelance project for Morais Transportes company, involving the development of an advertising website.",
+  },
+  {
+    id: 2,
+    image: ImgGepea,
+    link:"https://gepea.com.br/",
+    title:
+      language === "Portuguese"
+        ? "GEPEA - Empresa da Faculdade UNICAMP"
+        : "GEPEA - UNICAMP Faculty Company",
+
+    category: language === "Portuguese" ? "Sites" : "Web",
   },
   // {
   //   id: 5,

@@ -12,7 +12,7 @@ const Home = () => {
           <Social />
 
           <div className="home__img"></div>
-
+    
           <Data />
         </div>
       </div>
