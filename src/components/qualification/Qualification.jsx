@@ -66,7 +66,7 @@ function Qualification() {
               <div>
                 <h3 className="qualification__title">
                   {language == "Portuguese"
-                    ? "Tecnoligia em Análise e Desenvolvimento de Sistemas"
+                    ? "Graduação em Análise e Desenvolvimento de Sistemas"
                     : "Degree in Analysis in Systems Development"}
                 </h3>
                 <span className="qualification__subtitle">
