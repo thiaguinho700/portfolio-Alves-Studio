@@ -36,14 +36,14 @@
   }
   
   .container_work {
-    width: 300px;
+    width: 380px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
   .work__img {
-    width: 295px;
+    width: 395px;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
   }
@@ -52,6 +52,7 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+    text-align: center;
   }
   
   .work__button {
