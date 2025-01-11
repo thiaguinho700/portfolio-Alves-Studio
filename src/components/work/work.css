@@ -60,7 +60,7 @@
     font-size: var(--small-font-size);
     display: flex;
     align-items: center;
-    column-gap: 0.25rem;
+    column-gap: 0.24rem;
   }
   
   .work__button-icon {
