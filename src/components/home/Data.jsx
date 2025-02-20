@@ -66,13 +66,13 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">
         {language === "Portuguese"
-          ? "Desenvolvedor FullStack"
-          : "FullStack Dev"}
+          ? "Analista de Dados"
+          : "Data Analyst"}
       </h3>
       <p className="home__description">
         {language === "Portuguese"
-          ? "Eu crio aplicativos Web e Mobile..."
-          : "I create Web and Moible apps..."}
+          ? "Sou Analista de Dados, transformando informações em insights estratégicos para embasar decisões inteligentes e impulsionar resultados."
+          : "I am a Data Analyst, transforming information into strategic insights to drive smart decisions and impactful results."}
       </p>
 
       <a href="#contact" className="button button--flex">

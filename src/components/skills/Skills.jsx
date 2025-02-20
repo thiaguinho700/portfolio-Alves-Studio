@@ -1,6 +1,6 @@
 import Backend from './Backend';
 import Frontend from './Frontend';
-import './skills.css'
+import './Skills.css'
 import React from "react";
 
 function Skills() {
