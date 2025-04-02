@@ -43,6 +43,7 @@
   :root {
     --big-font-size: 2.75rem;
     --h1-font-size: 1.5rem;
+    --h1-font-size_name: 2.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: 0.938rem;
@@ -109,15 +110,22 @@ img {
   color: var(--title-color);
   margin-bottom: 20px;
 }
+.section__title_name{
+  font-size: var(--h1-font-size_name);
+  color: var(--title-color);
+  margin-bottom: 20px;
+}
 
 .section__subtitle {
   display: block;
-  font-family: var(--small-font-size);
+  font-size: 20px;
   margin-bottom: 4rem;
+  font-family: var(--small-font-size);
 }
 
 .section__title,
-.section__subtitle {
+.section__subtitle,
+.section__title_name {
   text-align: center;
 }
 

@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer_container conteiner">
-        <h1 className="footer__title">Thiago Alves</h1>
+        <h1 className="footer__title">Alves Studio</h1>
 
         <ul className="footer__list">
         

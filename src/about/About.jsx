@@ -9,10 +9,13 @@ function About() {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">
-        {language === "Portuguese" ? "Sobre mim" : "About me"}
+        {language === "Portuguese" ? "Sobre mim" : "About us"}
+      </h2>
+      <h2 className="section__title_name">
+        Thiago Alves
       </h2>
       <span className="section__subtitle">
-        {language === "Portuguese" ? "Minha introdução" : "My introduction"}
+        {language === "Portuguese" ? "Desenvolvedor FullStack" : "FullStack Developer"}
       </span>
 
       <div className="about__container container grid">

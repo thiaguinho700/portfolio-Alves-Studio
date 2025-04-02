@@ -8,7 +8,7 @@ function Data() {
     <div className="home__data">
       <h1 className="home__title" >
         <ReactTyped
-          strings={["Thiago Alves"]}
+          strings={["Alves Studio"]}
           typeSpeed={80}
           backSpeed={200}
           backDelay={500}
