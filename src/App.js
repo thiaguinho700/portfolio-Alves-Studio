@@ -20,7 +20,7 @@ export default function App() {
         <Home />
         <About />
         <Skills />
-        <Qualification />
+        {/* <Qualification /> */}
         <Work />
         <Contact />
       </main>

@@ -31,15 +31,15 @@ function Contact() {
             {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
           </h3>
           <div className="contact__info">
-            <div className="contact__card">
+            {/* <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
                 thiagocontato1232@gmail.com
               </span>
-            </div>          
-            <div className="contact__card">
+            </div>           */}
+            {/* <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
 
               <h3 className="contact__card-title">Github</h3>
@@ -57,14 +57,33 @@ function Contact() {
                 {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
             <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
 
               <h3 className="contact__card-title">Instagram</h3>
               <span className="contact__card-data">
-                <a href="https://www.instagram.com/thiago.freelas/" target="_blank">
-                https://www.instagram.com/thiago.freelas/
+                <a href="https://www.instagram.com/alves.studioweb/" target="_blank">
+                https://www.instagram.com/alves.studioweb/
+                </a>
+              </span>
+
+              <a
+                className="contact__button"
+                href="https://github.com/thiagoHenrique847"
+                target="_blank"
+              >
+                {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+            <div className="contact__card">
+              <i className="bx bxl-messenger contact__card-icon"></i>
+
+              <h3 className="contact__card-title">Whatsapp</h3>
+              <span className="contact__card-data">
+                <a href="https://wa.me/551992408003" target="_blank">
+                https://wa.me/551992408003
                 </a>
               </span>
 

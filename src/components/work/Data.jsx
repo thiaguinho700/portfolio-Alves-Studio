@@ -11,6 +11,7 @@
 // import Todo from "../../assets/ProjectsImage/Todo.png";
 import ImgMorais from "../../assets/ProjectsImage/ProjetosMorais.png";
 import ImgGepea from "../../assets/ProjectsImage/ImgGepea.png";
+import ImgIma from "../../assets/ProjectsImage/ImgIma.png";
 
 const language = localStorage.getItem("language");
 
@@ -38,6 +39,17 @@ export const projectsData = [
       language === "Portuguese"
         ? "GEPEA - Empresa da Faculdade UNICAMP"
         : "GEPEA - UNICAMP Faculty Company",
+
+    category: language === "Portuguese" ? "Sites" : "Web",
+  },
+  {
+    id: 3,
+    image: ImgIma,
+    link:"https://imamovimento.com.br/",
+    title:
+      language === "Portuguese"
+        ? "IMA Movimento - Igreja"
+        : "IMA Movimento - Church",
 
     category: language === "Portuguese" ? "Sites" : "Web",
   },
