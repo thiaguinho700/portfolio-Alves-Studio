@@ -1,5 +1,7 @@
 import "./about.css";
 import AboutImg from "../../src/assets/imageEmpresa.jpg";
+import ThiagoImg from "../../src/assets/profile.jpeg";
+
 import React from "react";
 // import CV from "../../src/assets/Currículo - Thiago Alves.pdf";
 import Info from "./info";
@@ -9,7 +11,7 @@ function About() {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">
-        {language === "Portuguese" ? "Sobre mim" : "About us"}
+        {language === "Portuguese" ? "Conheça nosso time!" : "Meet your team!"}
       </h2>
       <h2 className="section__title_name">
         Thiago Alves
@@ -19,7 +21,7 @@ function About() {
       </span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src={ThiagoImg} alt="" className="about__img" />
 
         <div className="about__data">
           <Info />

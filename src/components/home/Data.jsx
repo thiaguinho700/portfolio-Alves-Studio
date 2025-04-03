@@ -66,12 +66,12 @@ function Data() {
       </h1>
       <h3 className="home__subtitle">
         {language === "Portuguese"
-          ? "Analista de Dados"
-          : "Data Analyst"}
+          ? "Desenvolvimento de sites"
+          : "Website Development"}
       </h3>
       <p className="home__description">
         {language === "Portuguese"
-          ? "Na **AlvesStudio**, criamos sites de alto desempenho para fortalecer sua presença online. Transformamos sua visão em realidade com inovação e precisão."
+          ? "Na AlvesStudio, criamos sites de alto desempenho para fortalecer sua presença online. Transformamos sua visão em realidade com inovação e precisão."
           : "At AlvesStudio, we create high-performance websites that elevate your online presence. From sleek landing pages to custom web solutions, we turn your vision into reality with innovation and precision."}
       </p>
 
