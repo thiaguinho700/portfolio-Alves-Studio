@@ -71,8 +71,8 @@ function Data() {
       </h3>
       <p className="home__description">
         {language === "Portuguese"
-          ? "Sou Analista de Dados, transformando informações em insights estratégicos para embasar decisões inteligentes e impulsionar resultados."
-          : "I am a Data Analyst, transforming information into strategic insights to drive smart decisions and impactful results."}
+          ? "Na **AlvesStudio**, criamos sites de alto desempenho para fortalecer sua presença online. Transformamos sua visão em realidade com inovação e precisão."
+          : "At AlvesStudio, we create high-performance websites that elevate your online presence. From sleek landing pages to custom web solutions, we turn your vision into reality with innovation and precision."}
       </p>
 
       <a href="#contact" className="button button--flex">

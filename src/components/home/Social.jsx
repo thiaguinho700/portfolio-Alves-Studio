@@ -19,6 +19,14 @@ function Social() {
         <i className="uil uil-instagram-alt"></i>
         
       </a>
+      <a
+        href="https://wa.me/551992408003"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i className="uil uil-whatsapp-alt"></i>
+        
+      </a>
     </div>
   );
 }

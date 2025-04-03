@@ -28,6 +28,15 @@ function Footer() {
               Instagram
             </a>
           </li>
+          <li>
+            <a
+              href="https://wa.me/551992408003"
+              className="footer__link"
+              target="_blank"
+            >
+              Whatsapp
+            </a>
+          </li>
         </ul>
 
         <span className="footer__copy">
