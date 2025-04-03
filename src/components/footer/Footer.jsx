@@ -33,8 +33,8 @@ function Footer() {
         <span className="footer__copy">
         &#169; 
           {language === "Portuguese"
-            ? "ThiagoAlves. Todos os direitos reservados."
-            : "ThiagoAlves. All rights reserved."}
+            ? "Alves Studio. Todos os direitos reservados."
+            : "Alves Studio. All rights reserved."}
         </span>
       </div>
     </footer>

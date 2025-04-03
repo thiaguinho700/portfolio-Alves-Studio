@@ -28,7 +28,7 @@ function Contact() {
       <div className="contact__container container grid">
         <div className="contact__content">
           <h3 className="contact__title">
-            {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
+            {language === "Portuguese" ? "Fale com a gente!" : "Talk with us!"}
           </h3>
           <div className="contact__info">
             {/* <div className="contact__card">
@@ -54,7 +54,7 @@ function Contact() {
                 href="https://github.com/thiagoHenrique847"
                 target="_blank"
               >
-                {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
+                {language === "Portuguese" ? "Fale com a gente!" : "Talk with us!"}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div> */}
@@ -70,10 +70,10 @@ function Contact() {
 
               <a
                 className="contact__button"
-                href="https://github.com/thiagoHenrique847"
+                href="https://www.instagram.com/alves.studioweb/"
                 target="_blank"
               >
-                {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
+                {language === "Portuguese" ? "Fale com a gente!" : "Talk with us!"}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -89,10 +89,10 @@ function Contact() {
 
               <a
                 className="contact__button"
-                href="https://github.com/thiagoHenrique847"
+                href="https://wa.me/551992408003"
                 target="_blank"
               >
-                {language === "Portuguese" ? "Fale comigo" : "Talk to me"}
+                {language === "Portuguese" ? "Fale com a gente!" : "Talk with us!"}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>

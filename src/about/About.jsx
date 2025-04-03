@@ -1,5 +1,5 @@
 import "./about.css";
-import AboutImg from "../../src/assets/profileTwo.jpeg";
+import AboutImg from "../../src/assets/imageEmpresa.jpg";
 import React from "react";
 // import CV from "../../src/assets/Currículo - Thiago Alves.pdf";
 import Info from "./info";
