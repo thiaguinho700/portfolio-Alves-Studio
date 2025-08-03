@@ -1,14 +1,3 @@
-// import Work1 from "../../assets/work1.jpg";
-// import Work2 from "../../assets/work2.jpg";
-// import Work3 from "../../assets/work3.jpg";
-// import Work4 from "../../assets/work4.jpg";
-// import Work5 from "../../assets/work5.jpg";
-
-// import ImgTcc from "../../assets/ProjectsImage/TccProject.png";
-// import ImgFitness from "../../assets/ProjectsImage/FitnessImg.png";
-// import ImgTccAluno from "../../assets/ProjectsImage/ProjectTccAluno.png";
-// import Comidas from "../../assets/ProjectsImage/Comidas.png";
-// import Todo from "../../assets/ProjectsImage/Todo.png";
 import ImgMorais from "../../assets/ProjectsImage/ProjetosMorais.png";
 import ImgGepea from "../../assets/ProjectsImage/ImgGepea.png";
 import ImgIma from "../../assets/ProjectsImage/ImgIma.png";
@@ -34,7 +23,7 @@ export const projectsData = [
   {
     id: 2,
     image: ImgGepea,
-    link:"https://gepea.com.br/",
+    link: "https://gepea.com.br/",
     title:
       language === "Portuguese"
         ? "GEPEA - Empresa da Faculdade UNICAMP"
@@ -45,7 +34,7 @@ export const projectsData = [
   {
     id: 3,
     image: ImgIma,
-    link:"https://imamovimento.com.br/",
+    link: "https://imamovimento.com.br/",
     title:
       language === "Portuguese"
         ? "IMA Movimento - Igreja"
@@ -56,12 +45,9 @@ export const projectsData = [
   // {
   //   id: 5,
   //   image: ImgTcc,
-  //   title:
-  //     language === "Portuguese"
-  //       ? "Design de Tcc - Design"
-  //       : "Final Paper Design - Design",
-
-  //   category: language === "Portuguese" ? "Design" : "Design",
+  //   title: language === "Portuguese" ? "Ablassi" : "Ablassi",
+  //   link: "https://ablassi.com.br/",
+  //   category: language === "Portuguese" ? "Sites" : "Web",
   // },
   // {
   //   id: 4,

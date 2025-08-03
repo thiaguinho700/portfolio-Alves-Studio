@@ -12,16 +12,19 @@ function Header() {
   const [activeNav, setActiveNav] = useState("#home");
 
   const onSelectLangue = (event) => {
-    localStorage.setItem("language", event.target.value);
-
+    localStorage.setItem("language", event.target.value)    
     window.location.reload();
   };
   const language = localStorage.getItem("language");
-
+  
+  
+  
   const [isActive, setIsActive] = useState(false);
   const [isActiveAnother, setIsActiveAnother] = useState(false);
 
   useEffect(() => {
+    localStorage.setItem("language", "Portuguese")    
+
     const startAnimation = () => {
       setIsActive(true);
 
@@ -49,8 +52,8 @@ function Header() {
         <div className={toggle ? "Nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
-              <select
-                onChange={onSelectLangue}
+              {/* <select
+                onChange={onSelectLangue}               
                 className="select_language"
                 name=""
                 id="selctLanguage"
@@ -60,9 +63,9 @@ function Header() {
                     ? "Selecione uma lingua"
                     : "Select a language"}
                 </option>
-                <option value="Portuguese">Português</option>
+                <option value="Portuguese" >Português</option>
                 <option value="English">English</option>
-              </select>
+              </select> */}
               <div
                 className={`containerAnimationSelect ${
                   isActive ? "active" : isActiveAnother ? "deactive" : ""
